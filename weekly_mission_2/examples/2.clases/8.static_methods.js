@@ -7,7 +7,7 @@ class Toolbox{
 console.log("Ejemplo 8: Métodos static")
 // Puedo llamar el método static directamente con el nombre de la clase
 
-const toolbox = new Toolbox();
+//const toolbox = new Toolbox();
 
 //al definir un método estático, no debemos instanciar un objeto como medio para utilizarlo.
 //console.log(toolbox.getMostUsefulMethods()) //Esto NO ESTÁ PERMITIDO
