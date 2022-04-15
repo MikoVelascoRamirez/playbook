@@ -8,6 +8,6 @@ export default class Viajero extends Explorer{
 
     getGeneralInfo() { 
         let nameAndUsername = this.getNameAndUsername();
-        return `${nameAndUsername}, ciclo: ${this.cycle}`
+        return `${nameAndUsername}, Ciclo: ${this.cycle}`
     }
 }
