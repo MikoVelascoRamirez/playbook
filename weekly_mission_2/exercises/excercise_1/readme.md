@@ -16,5 +16,4 @@ El diagrama es el siguiente:
         Repo : +int issues_close
         Repo : +getTotalIssues()
         Repo : +getGeneralInfo()
-    
 ```
