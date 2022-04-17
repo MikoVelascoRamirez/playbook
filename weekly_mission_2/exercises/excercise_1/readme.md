@@ -14,7 +14,7 @@ El diagrama es el siguiente:
         Repo : +int forks
         Repo : +int issues_open
         Repo : +int issues_close
-        Repo : +getTotalIssues() : int
-        Repo : +getGeneralInfo() : String
+        Repo : +getTotalIssues()
+        Repo : +getGeneralInfo()
     
 ```
