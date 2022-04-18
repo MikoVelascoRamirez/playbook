@@ -1,6 +1,12 @@
-# Week 2 - Excercise 1 
+# Week 2 - Excercises
 
-Se modelará el siguiente diagrama de clases de una simulación de un repositoriod e GitHub.
+## Excercise 1: Modeling JavaScript Objects
+
+### 1.1. **Github Objects**
+
+### **Activity 1.1.1.** Modeling a Repository Entity
+
+Se modelará el siguiente diagrama de clases de una simulación de un repositorio de GitHub.
 
 El diagrama es el siguiente:
 
