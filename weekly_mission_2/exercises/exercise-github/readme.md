@@ -45,3 +45,21 @@ Issue: +String lastUpdated
 Issue: +getTitleAndAuthor()
 Issue: +getGeneralInfo()
 ```
+
+### **Activity 1.1.3.** Modeling a PullRequest Entity
+
+Se modelará el siguiente diagrama de clases de una PullRequest de GitHub.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class PullRequest
+Issue: +String title
+Issue: +String branchName
+Issue: +String dateCreated
+Issue: +String status
+Issue: +String repositoryNameAssociated
+Issue: +getStatus()
+Issue: +getTitleAndAuthor()
+```
