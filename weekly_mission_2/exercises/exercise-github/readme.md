@@ -24,3 +24,22 @@ Repo : +int issues_close
 Repo : +getTotalIssues()
 Repo : +getGeneralInfo()
 ```
+
+### **Activity 1.1.2.** Modeling a Issue Entity
+
+Se modelará el siguiente diagrama de clases de una Issue de GitHub.
+
+```mermaid
+classDiagram
+class Issue
+Issue: +String title
+Issue: +String repositoryNameAssociated
+Issue: +String status
+Issue: +int numberOfComments
+Issue: +List<String> labels
+Issue: +String author
+Issue: +String dateCreated
+Issue: +String lastUpdated
+Issue: +getTitleAndAuthor()
+Issue: +getGeneralInfo()
+```
