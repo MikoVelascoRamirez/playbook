@@ -55,11 +55,11 @@ El diagrama es el siguiente:
 ```mermaid
 classDiagram
 class PullRequest
-Issue: +String title
-Issue: +String branchName
-Issue: +String dateCreated
-Issue: +String status
-Issue: +String repositoryNameAssociated
-Issue: +getStatus()
-Issue: +getTitleAndAuthor()
+PullRequest: +String title
+PullRequest: +String branchName
+PullRequest: +String dateCreated
+PullRequest: +String status
+PullRequest: +String repositoryNameAssociated
+PullRequest: +getStatus()
+PullRequest: +getTitleAndAuthor()
 ```
