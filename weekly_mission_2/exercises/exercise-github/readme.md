@@ -29,6 +29,8 @@ Repo : +getGeneralInfo()
 
 Se modelará el siguiente diagrama de clases de una Issue de GitHub.
 
+El diagrama es el siguiente:
+
 ```mermaid
 classDiagram
 class Issue
