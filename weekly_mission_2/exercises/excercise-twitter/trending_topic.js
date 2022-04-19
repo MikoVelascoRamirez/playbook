@@ -18,7 +18,7 @@ const trendingTopic = {
           datePublished: "8/02/2021",
           hourPublished: "20:34",
           sourceLabel: "Twitter Web App",
-          retweets: 0,
+          retweets: 2,
           respondTo: 123434354,
           comments: 0
         }
@@ -87,8 +87,20 @@ const trendingTopic = {
   getGeneralInfo() {
     return `Trending: ${this.name}
     Category: ${this.category}
-    Related Trends: ${this.relatedTrends}`;
+    Tweets: ${this.getNumberOfTweets()}
+    Related Trends: ${this.relatedTrends}
+    ${this.trending ? 'Tendencias' : null}`;
+  },
+  getOutstandings: function () {
+    this.outstandings.map( outstanding => console.log(outstanding));
+  },
+  getMostRecentTweets: function(){
+    this.most_recents.map( most_recent => console.log(most_recent));
   }
 };
 
 console.log(`${trendingTopic.getGeneralInfo()}`);
+console.log("Destacados\n---------------------")
+console.log(trendingTopic.getOutstandings())
+console.log("Tweets mas recientes\n---------------------")
+console.log(trendingTopic.getMostRecentTweets())
