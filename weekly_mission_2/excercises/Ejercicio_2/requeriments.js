@@ -17,3 +17,9 @@ const stacks_Explorers = explorers.map(explorer => (
 ))
 
 console.log(stacks_Explorers)
+
+// 4. Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
+
+const js_Explorers = explorers.filter(explorer => explorer.stack.includes("js"));
+
+console.log(js_Explorers)
