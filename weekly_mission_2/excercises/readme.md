@@ -244,3 +244,27 @@ Profile : +getThankYouNotes()
 Profile : +getdriverAchievements()
 Profile : +getProfileInfo()
 ```
+
+### **Activity 1.4.2.** Modeling a Travel Entity
+
+Modelado del siguiente diagrama de clases de un viaje de usuario de Uber.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class Travel
+Travel : +String idTravel
+Travel : +String traveler
+Travel : +String driver
+Travel : +String origin
+Travel : +String destiny
+Travel : +String date
+Travel : +String departure
+Travel : +String checkIn
+Travel : +String payment
+Travel : +float price
+Travel : +List<String> route
+Travel : +int rating
+Travel : +getTravelInfo()
+```
