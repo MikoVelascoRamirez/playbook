@@ -38,7 +38,7 @@ Issue: +String title
 Issue: +String repositoryNameAssociated
 Issue: +String status
 Issue: +int numberOfComments
-Issue: +List<String> labels
+Issue: +List~String~ labels
 Issue: +String author
 Issue: +String dateCreated
 Issue: +String lastUpdated
@@ -83,7 +83,7 @@ User : +String description
 User : +String registeredFrom
 User : +int followers
 User : +int following
-User : +List<Object> tweets
+User : +List~Object~ tweets
 User : +getNumberOfFollowers()
 User : +getNumberOfFollows()
 User : +getNumberOfTweets()
@@ -102,13 +102,13 @@ classDiagram
 class TrendingTopic
 TrendingTopic : +String name
 TrendingTopic : +String category
-TrendingTopic : +List<String> relatedTrends
-TrendingTopic : +List<Object> outstandings
-TrendingTopic : +List<Object> most_recents
+TrendingTopic : +List~String~ relatedTrends
+TrendingTopic : +List~Object~ outstandings
+TrendingTopic : +List~Object~ most_recents
 TrendingTopic : +String registeredFrom
-TrendingTopic : +List<Object> people
-TrendingTopic : +List<Object> photos
-TrendingTopic : +List<Object> videos
+TrendingTopic : +List~Object~ people
+TrendingTopic : +List~Object~ photos
+TrendingTopic : +List~Object~ videos
 TrendingTopic : +Boolean trending
 TrendingTopic : +getNumberOfTweets()
 TrendingTopic : +getNumberOfUsers()
@@ -128,9 +128,9 @@ classDiagram
 class Hashtag
 Hashtag : +String name
 Hashtag : +String category
-Hashtag : +List<String> relatedTrends
-Hashtag : +List<Object> outstandings
-Hashtag : +List<Object> most_recents
+Hashtag : +List~String~ relatedTrends
+Hashtag : +List~Object~ outstandings
+Hashtag : +List~Object~ most_recents
 Hashtag : +Boolean trending
 Hashtag : +getNumberOfTweets()
 Hashtag : +getNumberOfUsers()
@@ -152,13 +152,13 @@ classDiagram
 class User
 User : +String id
 User : +String name
-User : +List<Object> friends
+User : +List~Object~ friends
 User : +String url
 User : +String pictureProfile
 User : +String portraitPicture
-User : +List<String> posts
+User : +List~String~ posts
 User : +Boolean friend
-User : +List<String> photos
+User : +List~String~ photos
 User : +getNumberOfFriends()
 User : +getFriends()
 User : +getPosts()
@@ -182,8 +182,8 @@ Post : +String time
 Post : +String description
 Post : +String privacity
 Post : +Object reactions
-Post : +List<String> media
-Post : +List<Object> comments
+Post : +List~String~ media
+Post : +List~Object~ comments
 Post : +int shares
 Post : +getNumberOfReactions()
 Post : +getComments()
@@ -204,8 +204,8 @@ Biography : +String idProfile
 Biography : +String profileName
 Biography : +Object info
 Biography : +String about
-Biography : +List<String> nicknames
-Biography : +List<Object> specialEvents
+Biography : +List~String~ nicknames
+Biography : +List~Object~ specialEvents
 Biography : +getWorkpPlace()
 Biography : +getSchooling()
 Biography : +getLivePlaces()
@@ -231,14 +231,14 @@ Profile : +String license
 Profile : +int trips
 Profile : +float rating
 Profile : +int years
-Profile : +List<String> languages
+Profile : +List~String~ languages
 Profile : +String cityBorn
 Profile : +String countryBorn
 Profile : +String funFact
 Profile : +String mostMemorableTrip
-Profile : +List<Object> riderCompliments
-Profile : +List<String> thankyouNotes
-Profile : +List<String> driverAchievments
+Profile : +List~Object~ riderCompliments
+Profile : +List~String~ thankyouNotes
+Profile : +List~String~ driverAchievments
 Profile : +getRiderCompliments()
 Profile : +getThankYouNotes()
 Profile : +getdriverAchievements()
@@ -264,7 +264,7 @@ Travel : +String departure
 Travel : +String checkIn
 Travel : +String payment
 Travel : +float price
-Travel : +List<String> route
+Travel : +List~String~ route
 Travel : +int rating
 Travel : +getTravelInfo()
 ```
