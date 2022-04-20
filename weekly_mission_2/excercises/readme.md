@@ -138,3 +138,30 @@ Hashtag : +getGeneralInfo()
 Hashtag : +getOutstandings()
 Hashtag : +getMostRecentTweets()
 ```
+
+## 1.3 **Facebook Objects**
+
+### **Activity 1.3.1.** Modeling a User Profile Entity
+
+Modelado del siguiente diagrama de clases de un de un usuario de Facebook.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class User
+User : +String id
+User : +String name
+User : +List<Object> friends
+User : +String url
+User : +String pictureProfile
+User : +String portraitPicture
+User : +List<String> posts
+User : +Boolean friend
+User : +List<String> photos
+User : +getNumberOfFriends()
+User : +getFriends()
+User : +getPosts()
+User : +getPhotos()
+User : +getPersonalInfo()
+```
