@@ -29,3 +29,10 @@ console.log(js_Explorers)
 const firstExplorerFromCDMX = explorers.find(explorer => explorer.city === "CDMX");
 
 console.log(firstExplorerFromCDMX)
+
+
+// 6. Obtén la suma de todos los exercises_completed, usa REDUCE
+
+const totalExcercisesCompleted = explorers.reduce( (acc, explorer)=> acc+=explorer.exercises_completed, 0)
+
+console.log(`Total excercises completed: ${totalExcercisesCompleted}`)
