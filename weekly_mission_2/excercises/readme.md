@@ -143,7 +143,7 @@ Hashtag : +getMostRecentTweets()
 
 ### **Activity 1.3.1.** Modeling a User Profile Entity
 
-Modelado del siguiente diagrama de clases de un de un usuario de Facebook.
+Modelado del siguiente diagrama de clases de un usuario de Facebook.
 
 El diagrama es el siguiente:
 
