@@ -42,3 +42,9 @@ console.log(`Total excercises completed: ${totalExcercisesCompleted}`)
 const isAnExplorerFinishFrontend = explorers.some( explorer => explorer.missions.frontend.isFinished)
 
 console.log(isAnExplorerFinishFrontend);
+
+// 8. Obtén la validación si todos los explorers tienen la propiedad isFinished del onboarding como true. Usa EVERY.
+
+const allTheExplorersFinishedOnboarding = explorers.every( explorer => explorer.missions.onboarding.isFinished)
+
+console.log(allTheExplorersFinishedOnboarding);
