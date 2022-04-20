@@ -23,3 +23,9 @@ console.log(stacks_Explorers)
 const js_Explorers = explorers.filter(explorer => explorer.stack.includes("js"));
 
 console.log(js_Explorers)
+
+// 5. Busca el primer explorer que sea de la CDMX, usa FIND
+
+const firstExplorerFromCDMX = explorers.find(explorer => explorer.city === "CDMX");
+
+console.log(firstExplorerFromCDMX)
