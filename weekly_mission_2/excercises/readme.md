@@ -190,3 +190,25 @@ Post : +getComments()
 Post : +getNumberOfComments()
 Post : +getPostInfo()
 ```
+
+### **Activity 1.3.3.** Modeling a Biography Entity
+
+Modelado del siguiente diagrama de clases de un post de Facebook.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class Biography
+Biography : +String idProfile
+Biography : +String profileName
+Biography : +Object info
+Biography : +String about
+Biography : +List<String> nicknames
+Biography : +List<Object> specialEvents
+Biography : +getWorkpPlace()
+Biography : +getSchooling()
+Biography : +getLivePlaces()
+Biography : +getSpecialEvents()
+Biography : +getBasicInfo()
+```
