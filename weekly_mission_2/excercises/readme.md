@@ -116,3 +116,25 @@ TrendingTopic : +getGeneralInfo()
 TrendingTopic : +getOutstandings()
 TrendingTopic : +getMostRecentTweets()
 ```
+
+### **Activity 1.2.3.** Modeling a Hashtag Entity
+
+Modelado del siguiente diagrama de clases de un hashtag de Twitter.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class Hashtag
+Hashtag : +String name
+Hashtag : +String category
+Hashtag : +List<String> relatedTrends
+Hashtag : +List<Object> outstandings
+Hashtag : +List<Object> most_recents
+Hashtag : +Boolean trending
+Hashtag : +getNumberOfTweets()
+Hashtag : +getNumberOfUsers()
+Hashtag : +getGeneralInfo()
+Hashtag : +getOutstandings()
+Hashtag : +getMostRecentTweets()
+```
