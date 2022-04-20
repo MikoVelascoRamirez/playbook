@@ -165,3 +165,28 @@ User : +getPosts()
 User : +getPhotos()
 User : +getPersonalInfo()
 ```
+
+### **Activity 1.3.2.** Modeling a Post Entity
+
+Modelado del siguiente diagrama de clases de un post de Facebook.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class Post
+Post : +String id
+Post : +String publisher
+Post : +String date
+Post : +String time
+Post : +String description
+Post : +String privacity
+Post : +Object reactions
+Post : +List<String> media
+Post : +List<Object> comments
+Post : +int shares
+Post : +getNumberOfReactions()
+Post : +getComments()
+Post : +getNumberOfComments()
+Post : +getPostInfo()
+```
