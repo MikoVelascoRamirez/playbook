@@ -36,3 +36,9 @@ console.log(firstExplorerFromCDMX)
 const totalExcercisesCompleted = explorers.reduce( (acc, explorer)=> acc+=explorer.exercises_completed, 0)
 
 console.log(`Total excercises completed: ${totalExcercisesCompleted}`)
+
+// 7. Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME
+
+const isAnExplorerFinishFrontend = explorers.some( explorer => explorer.missions.frontend.isFinished)
+
+console.log(isAnExplorerFinishFrontend);
