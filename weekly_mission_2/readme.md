@@ -93,7 +93,7 @@ User : +renderTweets()
 
 ### **Activity 1.2.2.** Modeling a Trending Topic Entity
 
-Modelado del siguiente diagrama de clases de un de un perfil de Twitter.
+Modelado del siguiente diagrama de clases de un trending topic de Twitter.
 
 El diagrama es el siguiente:
 
