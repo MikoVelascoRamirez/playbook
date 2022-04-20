@@ -212,3 +212,35 @@ Biography : +getLivePlaces()
 Biography : +getSpecialEvents()
 Biography : +getBasicInfo()
 ```
+
+## 1.4 **Uber Objects**
+
+### **Activity 1.4.1.** Modeling a User Profile Entity
+
+Modelado del siguiente diagrama de clases de un pefil de usuario de Uber, siendo este el caso de un conductor.
+
+El diagrama es el siguiente:
+
+```mermaid
+classDiagram
+class Profile
+Profile : +String userName
+Profile : +String car
+Profile : +String photo
+Profile : +String license
+Profile : +int trips
+Profile : +float rating
+Profile : +int years
+Profile : +List<String> languages
+Profile : +String cityBorn
+Profile : +String countryBorn
+Profile : +String funFact
+Profile : +String mostMemorableTrip
+Profile : +List<Object> riderCompliments
+Profile : +List<String> thankyouNotes
+Profile : +List<String> driverAchievments
+Profile : +getRiderCompliments()
+Profile : +getThankYouNotes()
+Profile : +getdriverAchievements()
+Profile : +getProfileInfo()
+```
