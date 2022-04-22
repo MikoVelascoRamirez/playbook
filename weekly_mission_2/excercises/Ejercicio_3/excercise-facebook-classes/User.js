@@ -7,6 +7,7 @@ class User{
         this.pictureProfile = pictureProfile;
         this.portraitPicture = portraitPicture;
         this.posts = [];
+        this.photos = [];
     }
 
     //Getters
