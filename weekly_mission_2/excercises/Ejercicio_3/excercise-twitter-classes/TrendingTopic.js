@@ -194,3 +194,9 @@ console.log("Recent Tweets: ")
 tt.getMostRecentTweets
 console.log("Destacados: ")
 tt.getOutstandings
+console.log("People: ")
+console.log(tt.getPeople)
+console.log("Photos: ")
+console.log(tt.getPhotos);
+console.log("Videos: ")
+console.log(tt.getVideos);
