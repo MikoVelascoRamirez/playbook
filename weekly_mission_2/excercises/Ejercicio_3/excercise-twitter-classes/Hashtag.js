@@ -45,6 +45,7 @@ class Hashtag{
 }
 
 //Instances
+const hashtag = new Hashtag("#video","tendencias",["Cristiano Ronaldo", "Ucrania"],false);
 
 
 //Implementation
