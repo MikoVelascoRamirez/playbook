@@ -51,11 +51,11 @@ class TrendingTopic{
     }
 
     set addPhoto(photo){
-        this.photo = [...this.photo, photo];
+        this.photos = [...this.photos, photo];
     }
 
     set addVideo(video){
-        this.video = [...this.video, video];
+        this.videos = [...this.videos, video];
     }
 }
 
