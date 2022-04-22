@@ -60,5 +60,6 @@ class TrendingTopic{
 }
 
 //Instance
+const tt = new TrendingTopic("Riqui", "Deportes", ["Piqué", "FC Barcelona"], true);
 
 //Implementation
