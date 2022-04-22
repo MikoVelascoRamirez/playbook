@@ -24,3 +24,6 @@ class Repo{
 const repo = new Repo("LaunchX", "MikoVelascoRamirez", "JavaScript", 80, 199, 299, 2, 4);
 
 //Implementing methods
+console.log(`Nombre de la repo: ${repo.name}
+Issues totales: ${repo.getTotalIssues}
+${repo.getGeneralInfo}`)
