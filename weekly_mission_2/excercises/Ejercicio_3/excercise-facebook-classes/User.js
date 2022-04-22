@@ -8,7 +8,6 @@ class User{
         this.portraitPicture = portraitPicture;
         this.posts = [];
         this.photos = photos;
-        this.friend = false;
     }
 
     //Getters
@@ -37,5 +36,19 @@ class User{
         ${this.friend ? "✔️ Amigo" : "👨🏻 Agregar a mis amigos"}
         Posts: ${this.getPosts}
         Photos: ${this.getPhotos}`
+    }
+
+    //Setters
+
+    set addFriend(friend){
+        this.friends = [...this.friends, friend];
+    }
+
+    set addPost(post){
+        this.posts = [...this.posts, post];
+    }
+
+    set addPhoto(photo){
+        this.photos = [...this.photos, photo];
     }
 }
