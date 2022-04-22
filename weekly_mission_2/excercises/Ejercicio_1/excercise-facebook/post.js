@@ -60,4 +60,4 @@ const Post = {
 
 console.log("Post: " + Post.getPostInfo());
 console.log("Comentarios:")
-console.log(Post.getComments())
+Post.getComments();
