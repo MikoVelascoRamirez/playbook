@@ -13,7 +13,7 @@ class User{
     //Getters
 
     get getFriends(){ 
-        return this.friends;
+        return this.friends.forEach( friend => console.log(friend.name));
     }
 
     get getNumberOfFriends(){
