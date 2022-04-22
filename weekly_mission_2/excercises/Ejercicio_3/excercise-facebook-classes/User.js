@@ -53,3 +53,27 @@ class User{
 }
 
 const usuario = new User("121o2o1o2121!z@!0", "@Pepito", "https://www.facebook.com/pepito.ortiz98", "fotodePepito.jpg", "cheemsPortait.png");
+
+usuario.addFriend = {
+    id: "121o2o1o2121!z@!0",
+    name: "@JuanitaSexy69",
+}
+
+usuario.addFriend = {
+    id: "981o2o1o2145!w@!0",
+    name: "@ToñoElTigre",
+}
+
+usuario.addFriend = {
+    id: "900o2o1o2121!z@'3",
+    name: "@PaquitoFlowBakano",
+}
+
+usuario.addPost = "sdcosdk29r934";
+usuario.addPost = "oacosdk29r921";
+usuario.addPost = "asdsasd29r555";
+
+usuario.addPhoto = "https://scontent.flov1-1.fna.fbcdn.net/v/t39.30808-6/262867595_854940358504935_7541021694322251397_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dWNlTZgisLIAX8rkzdI&_nc_ht=scontent.flov1-1.fna&oh=00_AT_Qhn1dcA_bbr0rrf5jtv8lpb7r6knG74N4_NxQUFb8Sw&oe=6263FC36";
+usuario.addPhoto = "https://scontent.flov1-1.fna.fbcdn.net/v/t39.30808-6/262867595_854940358504935_7541021694322251397_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dWNlTZgisLIAX8rkzdI&_nc_ht=scontent.flov1-1.fna&oh=00_AT_Qhn1dcA_bbr0rrf5jtv8lpb7r6knG74N4_NxQUFb8Sw&oe=09281FG";
+
+console.log(usuario.getPersonalInfo)
