@@ -1,5 +1,5 @@
 class User{
-    constructor(id, name, url, pictureProfile, portraitPicture, photos){
+    constructor(id, name, url, pictureProfile, portraitPicture){
         this.id = id;
         this.name = name;
         this.friends = [];
@@ -7,7 +7,6 @@ class User{
         this.pictureProfile = pictureProfile;
         this.portraitPicture = portraitPicture;
         this.posts = [];
-        this.photos = photos;
     }
 
     //Getters
