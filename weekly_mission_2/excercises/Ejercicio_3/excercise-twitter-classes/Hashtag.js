@@ -47,5 +47,90 @@ class Hashtag{
 //Instances
 const hashtag = new Hashtag("#video","tendencias",["Cristiano Ronaldo", "Ucrania"],false);
 
-
 //Implementation
+
+hashtag.addRecentTweet = {
+    idTweet: 123434354,
+    datePublished: "8/02/2021",
+    hourPublished: "20:21",
+    tweetContent: "Visca el Barca",
+    media: [],
+    comments: [
+      {
+        idTweet: 10291291,
+        user: "@ZonaBlaugrana",
+        datePublished: "8/02/2021",
+        hourPublished: "20:34",
+        sourceLabel: "Twitter Web App",
+        retweets: 0,
+        respondTo: 123434354,
+        comments: 0
+      }
+    ],
+    sourceLabel: "Twitter for iPhone"
+}
+
+hashtag.addOutstandingTweet = {
+    idTweet: 123434354,
+    datePublished: "8/02/2021",
+    hourPublished: "20:21",
+    tweetContent: "Visca el Barca",
+    media: [],
+    comments: [
+      {
+        idTweet: 10291291,
+        user: "@ZonaBlaugrana",
+        datePublished: "8/02/2021",
+        hourPublished: "20:34",
+        sourceLabel: "Twitter Web App",
+        retweets: 0,
+        respondTo: 123434354,
+        comments: 0
+      }
+    ],
+    sourceLabel: "Twitter for iPhone"
+} 
+
+hashtag.addRecentTweet = {
+    idTweet: 123434354,
+    datePublished: "19/03/2022",
+    hourPublished: "10:00",
+    tweetContent: "hola a todos",
+    media: [],
+    comments: [
+      {
+        idTweet: 10291291,
+        user: "@LaCocinaDeKaty",
+        datePublished: "19/03/2022",
+        hourPublished: "13:56",
+        sourceLabel: "Twitter for iPhone",
+        retweets: 1,
+        respondTo: 123434354,
+        comments: 0
+      }
+    ],
+    sourceLabel: "Twitter for iPhone"
+}
+
+hashtag.addOutstandingTweet = {
+    idTweet: 123434354,
+    datePublished: "19/03/2022",
+    hourPublished: "10:00",
+    tweetContent: "hola a todos",
+    media: [],
+    comments: [
+      {
+        idTweet: 10291291,
+        user: "@LaCocinaDeKaty",
+        datePublished: "19/03/2022",
+        hourPublished: "13:56",
+        sourceLabel: "Twitter for iPhone",
+        retweets: 1,
+        respondTo: 123434354,
+        comments: 0
+      }
+    ],
+    sourceLabel: "Twitter for iPhone"
+}
+
+console.log(`${hashtag.getGeneralInfo}`);
