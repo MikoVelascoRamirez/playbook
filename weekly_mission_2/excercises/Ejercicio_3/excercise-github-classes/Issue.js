@@ -21,7 +21,7 @@ class Issue{
     get getGeneralInfo(){ 
         return `${this.title}
         Created by ${this.author} on ${this.dateCreated}
-        Last update: ${this.lastUpudated}
+        Last update: ${this.lastUpdated}
         Comments: ${this.numberOfComments}
         Status: ${this.status}
         Labels: ${this.labels}`
@@ -45,6 +45,7 @@ class Issue{
 
     setNumberOfComments(){
         this.numberOfComments += 1;
+        this.setUpdate = new Date();
     }
 }
 
@@ -53,3 +54,11 @@ const issue = new Issue("No me compila el código", "Abogabot", 14, ["issue", "b
 
 
 //Implementación
+
+issue.setNumberOfComments();
+issue.setIssueLabels = ["issue", "bug", "question"];
+
+issue.setStatus = "closed";
+
+console.log(issue.getTitleAndAuthor);
+console.log(issue.getGeneralInfo);
