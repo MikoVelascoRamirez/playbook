@@ -14,7 +14,32 @@ class Issue{
 
     //Getters
 
+    get getTitleAndAuthor(){
+        return `The issue "${this.title}" was opened by ${this.author}`
+    }
+
+    get getGeneralInfo(){ 
+        return `${this.title}
+        Created by ${this.author} on ${this.dateCreated}
+        Last update: ${this.lastUpudated}
+        Comments: ${this.numberOfComments}
+        Status: ${this.status}
+        Labels: ${this.labels}`
+    }
+
     //Setters
+
+    set setStatus(status){ 
+        this.status = status;
+    }
+
+    set setUpdate(date){
+        this.lastUpdated = date;
+    }
+
+    set setIssueLabels(labels){
+        this.labels = labels;
+    }
 }
 
 //Instanciación
