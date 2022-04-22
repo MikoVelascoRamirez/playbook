@@ -40,6 +40,12 @@ class Issue{
     set setIssueLabels(labels){
         this.labels = labels;
     }
+
+    //Methods
+
+    setNumberOfComments(){
+        this.numberOfComments += 1;
+    }
 }
 
 //Instanciación
