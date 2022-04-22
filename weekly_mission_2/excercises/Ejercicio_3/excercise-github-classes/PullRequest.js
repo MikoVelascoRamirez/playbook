@@ -22,3 +22,12 @@ class PullRequest{
         this.status = status;
     }
 }
+
+const PR = new PullRequest("Módulo de descargas - favor de revisar", "MikoVelascoRamirez", "Abogabot");
+
+console.log(`Name and author: ${PR.getTitleAndAuthor}`)
+console.log(`Status of the PR: ${PR.getStatus}`)
+
+PR.setStatus = "closed"
+
+console.log(`Status of the PR: ${PR.getStatus}`)
