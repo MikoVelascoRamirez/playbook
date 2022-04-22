@@ -51,3 +51,5 @@ class User{
         this.photos = [...this.photos, photo];
     }
 }
+
+const usuario = new User("121o2o1o2121!z@!0", "@Pepito", "https://www.facebook.com/pepito.ortiz98", "fotodePepito.jpg", "cheemsPortait.png");
