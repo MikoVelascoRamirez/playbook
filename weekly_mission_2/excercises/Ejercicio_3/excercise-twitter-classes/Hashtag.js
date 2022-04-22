@@ -17,21 +17,23 @@ class Hashtag{
         return this.people.length
     }
 
+    get getOutstandings(){
+        return this.outstandings.filter( outstanding => outstanding.tweetContent.includes("hola"))
+        .forEach( outstanding => console.log(outstanding));
+    }
+
+    get getMostRecentTweets(){
+        return this.most_recents.forEach( most_recent => console.log(most_recent));
+    }
+    
     get getGeneralInfo(){
         return `Hashtag: ${this.name}
         Category: ${this.category}
-        Tweets: ${this.getNumberOfTweets}
+        Tweets: ${this.getNumberOfTweets}        
         Related Trends: ${this.relatedTrends}
         ${this.trending ? 'Tendencias' : ''}`;
     }
 
-    get getOutstandings(){
-        return this.outstandings.filter( outstanding => outstanding.tweetContent.includes("hola"));
-    }
-
-    get getMostRecentTweets(){
-        return this.most_recents.map( most_recent => most_recent);
-    }
 
     //Setters
 
@@ -134,3 +136,7 @@ hashtag.addOutstandingTweet = {
 }
 
 console.log(`${hashtag.getGeneralInfo}`);
+console.log("Recent Tweets: ")
+hashtag.getMostRecentTweets
+console.log("Destacados: ")
+hashtag.getOutstandings
