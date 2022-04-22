@@ -49,5 +49,7 @@ class Issue{
 }
 
 //Instanciación
+const issue = new Issue("No me compila el código", "Abogabot", 14, ["issue", "bug"], "MikoVelascoRamirez");
+
 
 //Implementación
