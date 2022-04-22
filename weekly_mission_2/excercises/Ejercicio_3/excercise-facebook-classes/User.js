@@ -13,7 +13,7 @@ class User{
     //Getters
 
     get getFriends(){ 
-        return this.friends.forEach( friend => console.log(friend.name));
+        return this.friends.map( friend => friend.name);
     }
 
     get getNumberOfFriends(){
@@ -32,8 +32,7 @@ class User{
         return `
         ${this.name}
         ${this.getNumberOfFriends} amigos
-        ${this.getFriends}
-        ${this.friend ? "✔️ Amigo" : "👨🏻 Agregar a mis amigos"}
+        Amigos: ${this.getFriends}        
         Posts: ${this.getPosts}
         Photos: ${this.getPhotos}`
     }
