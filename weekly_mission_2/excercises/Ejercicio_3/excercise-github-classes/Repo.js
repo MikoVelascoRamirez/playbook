@@ -21,5 +21,6 @@ class Repo{
 }
 
 //Instance
+const repo = new Repo("LaunchX", "MikoVelascoRamirez", "JavaScript", 80, 199, 299, 2, 4);
 
 //Implementing methods
