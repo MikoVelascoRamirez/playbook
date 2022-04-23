@@ -32,7 +32,7 @@ class Travel{
 
     //Setters
     set setRate(rate){
-        this.rate = rate;
+        this.rating = rate;
     }
 }
 
