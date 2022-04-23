@@ -54,7 +54,7 @@ class Profile{
     }
 
     set addAchievement(achievement){
-        this.driverAchivements = [...this.addAchievement, achievement];
+        this.driverAchivements = [...this.driverAchivements, achievement];
     }
 }
 
@@ -62,3 +62,33 @@ class Profile{
 const Jonathan = new Profile("Jonathan", "Toyota Prius", "http://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/image5-4.png", "5FLXYZ", 2228, 4.9, 2, ["English", "German"], "Vancouver", "Canada", "I am a certified grandmaster at chess!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 //Implementation
+
+Jonathan.addCompliment = {
+    name: "Awesome DJ",
+    number: 96
+}
+
+Jonathan.addCompliment = {
+    name: "Neat & Tidy",
+    number: 26
+}
+
+Jonathan.addCompliment = {
+    name: "Cool car",
+    number: 9
+}
+
+Jonathan.addThankfulNote = "Hilarious person with a coolest car";
+Jonathan.addThankfulNote = "Thanks for taking music requests";
+
+Jonathan.addAchievement = "50 5-star trips";
+Jonathan.addAchievement = "2 years with Uber";
+Jonathan.addAchievement = "100 late night trips";
+
+console.log(Profile.getProfileInfo);
+console.log("Rider compliments\n");
+Profile.getRiderCompliments;
+console.log("\nRider thank you notes");
+console.log(Profile.getThankYouNotes)
+console.log("\nDriver achievements");
+console.log(Profile.getdriverAchievements)
