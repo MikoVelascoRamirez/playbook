@@ -59,5 +59,6 @@ class Profile{
 }
 
 //Instance
+const Jonathan = new Profile("Jonathan", "Toyota Prius", "http://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/image5-4.png", "5FLXYZ", 2228, 4.9, 2, ["English", "German"], "Vancouver", "Canada", "I am a certified grandmaster at chess!", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 //Implementation
