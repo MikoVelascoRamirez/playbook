@@ -28,7 +28,7 @@ class Profile{
     }
 
     get getdriverAchievements(){
-        return this.driverAchievments;
+        return this.driverAchivements;
     }
 
     get getProfileInfo(){
@@ -85,10 +85,10 @@ Jonathan.addAchievement = "50 5-star trips";
 Jonathan.addAchievement = "2 years with Uber";
 Jonathan.addAchievement = "100 late night trips";
 
-console.log(Profile.getProfileInfo);
+console.log(Jonathan.getProfileInfo);
 console.log("Rider compliments\n");
-Profile.getRiderCompliments;
+console.log(Jonathan.getRiderCompliments);
 console.log("\nRider thank you notes");
-console.log(Profile.getThankYouNotes)
+console.log(Jonathan.getThankYouNotes)
 console.log("\nDriver achievements");
-console.log(Profile.getdriverAchievements)
+console.log(Jonathan.getdriverAchievements)
