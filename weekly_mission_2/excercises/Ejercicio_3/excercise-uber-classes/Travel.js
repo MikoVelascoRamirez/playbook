@@ -1,5 +1,5 @@
 class Travel{
-    constructor(id, traveler, driver, origin, destiny, departure, checkIn, payment, route){
+    constructor(id, traveler, driver, origin, destiny, departure, checkIn, payment, price, route){
         this.id = id;
         this.traveler = traveler;
         this.driver = driver;
@@ -9,6 +9,7 @@ class Travel{
         this.departure = departure;
         this.checkIn = checkIn;
         this.payment = payment;
+        this.price = price;
         this.route = route;
         this.rating = null;
     }
@@ -16,7 +17,7 @@ class Travel{
     //Getters
     get getTravelInfo(){
         return `
-        Viaje ${this.idTravel}
+        Viaje ${this.id}
         Origen: ${this.origin}
         Destino: ${this.destiny}
         Fecha: ${this.date}
@@ -41,3 +42,6 @@ const sofiaTravel = new Travel("32llle12p3e", "María Sofía", "Huge Jackman", "
 "Ha llegado a su destino: Zona Arqueológica Huapalcalco"]);
 
 //Implementation
+sofiaTravel.setRate = 4;
+
+console.log(sofiaTravel.getTravelInfo)
