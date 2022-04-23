@@ -12,4 +12,29 @@ class Travel{
         this.route = route;
         this.rating = null;
     }
+
+    //Getters
+    get getTravelInfo(){
+        return `
+        Viaje ${this.idTravel}
+        Origen: ${this.origin}
+        Destino: ${this.destiny}
+        Fecha: ${this.date}
+        Hora de salida: ${this.departure}
+        Hora de llegada: ${this.checkIn}
+        Ruta: ${this.route}
+        Conductor: ${this.driver}
+        Calificación: ${this.rating} ⭐
+        Total: $${this.price}.00 MXN
+        `
+    }
+
+    //Setters
+    set setRate(rate){
+        this.rate = rate;
+    }
 }
+
+// Instance
+
+//Implementation
