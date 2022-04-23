@@ -14,7 +14,7 @@ class Profile{
         this.mostMemorableTrip = mostMemorableTrip;
         this.riderCompliments = [];
         this.thankyouNotes = [];
-        this.driverAchivements = [];
+        this.driverAchievements = [];
     }
 
     //Getters
@@ -28,7 +28,7 @@ class Profile{
     }
 
     get getdriverAchievements(){
-        return this.driverAchivements;
+        return this.driverAchievements;
     }
 
     get getProfileInfo(){
@@ -54,7 +54,7 @@ class Profile{
     }
 
     set addAchievement(achievement){
-        this.driverAchivements = [...this.driverAchivements, achievement];
+        this.driverAchievements = [...this.driverAchievements, achievement];
     }
 }
 
