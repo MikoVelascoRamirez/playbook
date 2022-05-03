@@ -9,5 +9,5 @@ Proyectos desarrollados:
 | my-launchx_app | 1 | [Link a la repo](https://github.com/MikoVelascoRamirez/my_launchx_app) |
 | spiderverse | 2 | [Link a la repo](https://github.com/MikoVelascoRamirez/spiderverse) |
 | twitter | 3 | [Link a la repo](https://github.com/MikoVelascoRamirez/twitter) |
-| express_basic | 4 | Link a la repo |
+| express_basic | 4 | [Link a la repo](https://github.com/MikoVelascoRamirez/express_basic)|
 | express_api | 5 | Link a la repo |
